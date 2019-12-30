@@ -1,12 +1,13 @@
 # Chapter 1
 
-### バイナリエディタを選ぶ
+バイナリエディタを選ぶ
 
 - bviにした
 
 00の挿入はshell scriptでやった
 
 ```
+
 #!/bin/sh
 count=0
 # loop_count=16
@@ -23,7 +24,7 @@ done
 
 
 
-### quem(エミュレーター)をインストール
+quem(エミュレーター)をインストール
 
 virglrendererをインストール
 
@@ -31,30 +32,15 @@ qemu-system-x86_64 hello.img
 
 
 
-![helloworld](helloworld.png)
+![helloworld](chapter1/helloworld.png)
 
 
-
-### アセンブラへの書き換え
-
-`nasm helloos.nas`
-
-`qemu-sysytem-x86_64 helloos`
-
-
-
-
-
-GASとNASMの違い
-
-https://www.ibm.com/developerworks/jp/linux/library/l-gas-nasm.html
 
 
 
 ## 参考記事
 
 [30日でOS自作入門挑戦記(Linux) Day1](https://qiita.com/strv13570/items/c20e6b1c7cb68e7ee018)
-
 
 
 
