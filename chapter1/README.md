@@ -39,8 +39,8 @@ qemu-system-x86_64 hello.img
 
 `nasm helloos.nas`
 
-`qemu-sysytem-x86_64 helloos`
 
+`qemu-system-x86_64 helloos`
 
 
 
